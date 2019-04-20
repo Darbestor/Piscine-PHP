@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Periodic table</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<meta name="author" content="ghalvors">
+	<meta name="description" content="Exercise 01: Mendeleiev">
+	<style>
+		html {
+			font-size: 16px;
+		}
+		@media screen and (max-width: 992px) {
+			html {
+				font-size: 8px;
+			}
+		}
+		body {
+			margin: 2rem;
+			text-align: center;
+		}
+
+		table {
+			clear: both;
+			border-collapse: collapse;
+			border: 2px solid rgb(200,200,200);
+			letter-spacing: 1px;
+			font-size: 1rem;
+			overflow: auto;
+			max-width: 1300px;
+		}
+
+		td, th {
+			border: 1px solid rgb(190,190,190);
+		}
+
+		th {
+			background-color: rgb(235,235,235);
+		}
+
+		tr:nth-child(even) td {
+			background-color: rgb(250,250,250);
+		}
+
+		tr:nth-child(odd) td {
+			background-color: rgb(245,245,245);
+		}
+
+		caption {
+			font-size: 2rem;
+			font-weight: bold;
+			padding: 10px;
+		}
+		footer {
+		text-align: right;
+		font-family: monospace;
+		font-style: italic;
+		/* margin: 0 1em 0 0; */
+		}
+
+		td {
+			max-width: 110px;
+			width: 10%;
+
+		}
+
+		.ptext {
+			font-size: 0.8rem;
+		}
+		td p {
+			padding: 0;
+			margin: 0;
+		}
+
+		td > .symbol {
+			text-align: center;
+			font-weight: bold;
+		}
+		td > .number {
+			font-weight: bold;
+			text-align: right;
+			font-size: 0.7rem;
+		}
+		td > .atomic {
+			text-align: left;
+			font-size: 0.7rem;
+		}
+
+		.topic {
+			width: 50%;
+			text-align: center;
+			overflow: auto;
+			margin: 0 auto;
+		}
+	
+		img {
+			float: left;
+			width: 30%;
+		}
+		img + p {
+			float: right;
+			font-size: 14px;
+			width: 70%;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<h1>Dmitri Mendeleiev periodic table</h1>
+		<div class="topic">
+			<img src="http://stuki-druki.com/aforizms/Mendeleev01.jpg" alt="">
+			<p>In 1869, just five years after <a href="https://en.wikipedia.org/wiki/John_Newlands_(chemist)" alt="Wikipedia post">John Newlands</a> put forward his Law of Octaves, a Russian chemist called <a href="https://en.wikipedia.org/wiki/Dmitri_Mendeleev" alt="Wikipedia post">Dmitri Mendeleev</a> published a periodic table. Mendeleev also arranged the elements known at the time in order of relative atomic mass, but he did some other things that made his table much more successful.</p>
+		</div>
+		<div class="mendeleev">
+		<table lang="ru-RU" align="center">
+			<caption>Periodic table</caption>
+			<thead>
+				<tr>
+					<th scope="row">период</td>
+					<th scope="col">A &#8544; B</th>
+					<th scope="col">A &#8545; B</th>
+					<th scope="col">A &#8546; B</th>
+					<th scope="col">A &#8547; B</th>
+					<th scope="col">A &#8548; B</th>
+					<th scope="col">A &#8549; B</th>
+					<th scope="col">A &#8550; B</th>
+					<th colspan="3" scope="colspan">A &#8551; B</th>
+				</th>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">1</th>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td colspan="5"><p class="symbol">периодическая система химических элементов д.и.менделеева</p></td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td colspan="2" rowspan="3"></td>
+				</tr>
+				<tr>
+						<th scope="row">2</th>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+				</tr>
+				<tr>
+					<th scope="row">3</th>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+				</tr>
+				<tr>
+					<th scope="rowspan" rowspan="2">4</th>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<tr>
+						<td>
+								<p class="number">1</p>
+								<p class="symbol">H</p>
+								<p class="atomic">1.01</p>
+							</td>
+							<td>
+								<p class="number">1</p>
+								<p class="symbol">H</p>
+								<p class="atomic">1.01</p>
+							</td>
+							<td>
+								<p class="number">1</p>
+								<p class="symbol">H</p>
+								<p class="atomic">1.01</p>
+							</td>
+							<td>
+								<p class="number">1</p>
+								<p class="symbol">H</p>
+								<p class="atomic">1.01</p>
+							</td>
+							<td>
+								<p class="number">1</p>
+								<p class="symbol">H</p>
+								<p class="atomic">1.01</p>
+							</td>
+							<td>
+								<p class="number">1</p>
+								<p class="symbol">H</p>
+								<p class="atomic">1.01</p>
+							</td>
+							<td>
+								<p class="number">1</p>
+								<p class="symbol">H</p>
+								<p class="atomic">1.01</p>
+							</td>
+							<td>
+								<p class="number">1</p>
+								<p class="symbol">H</p>
+								<p class="atomic">1.01</p>
+							</td>
+							<td colspan="2"></td>
+					</tr>
+				</tr>
+				<tr>
+					<th scope="rowspan" rowspan="2">5</th>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<tr>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td colspan="2"></td>
+					</tr>
+				</tr>
+				<tr>
+					<th scope="rowspan" rowspan="2">6</th>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<tr>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td colspan="2"></td>
+					</tr>
+				</tr>
+				<tr>
+					<th scope="rowspan" rowspan="2">7</th>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p>
+						<p class="symbol">H</p>
+						<p class="atomic">1.01</p>
+					</td>
+					<tr>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td>
+							<p class="number">1</p>
+							<p class="symbol">H</p>
+							<p class="atomic">1.01</p>
+						</td>
+						<td colspan="2"></td>
+					</tr>
+				</tr>
+				<tr>
+					<th scope="row" class="ptext">Высшие оксиды</th>
+					<td><p class="symbol">R<sub>2</sub>O</p></td>
+					<td><p class="symbol">RO</p></td>
+					<td><p class="symbol">R<sub>2</sub>O<sub>3</sub></p></td>
+					<td><p class="symbol">RO<sub>2</sub></p></td>
+					<td><p class="symbol">R<sub>2</sub>O<sub>5</sub></p></td>
+					<td><p class="symbol">RO<sub>3</sub></p></td>
+					<td><p class="symbol">R<sub>2</sub>O<sub>7</sub></p></td>
+					<td colspan="3"><p class="symbol">RO<sub>4</sub></p></td>
+				</tr>
+				<tr>
+					<th scope="row" class="ptext">Летучие водородные соединения</th>
+					<td colspan="3"></td>
+					<td><p class="symbol">RH<sub>4</sub></p></td>
+					<td><p class="symbol">RH<sub>3</sub></p></td>
+					<td><p class="symbol">H<sub>2</sub>R</p></td>
+					<td><p class="symbol">HR</p></td>
+					<td colspan="3"></td>
+				</tr>
+			</tbody>
+		</table>
+		<table align="center">
+			<tbody>
+				<tr>
+					<th scope="row" class="ptext">Лантаноиды 4f</th>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+				</tr>
+				<tr>
+					<th scope="row" class="ptext">Актиноиды 5f</th>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+					<td>
+						<p class="number">1</p><p class="symbol">H</p><p class="atomic">1.01</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+	</main>
+	<footer>
+			<hr>
+			<p>&copy ghalvors 2019</p>
+	</footer>
+</body>
+</html>
