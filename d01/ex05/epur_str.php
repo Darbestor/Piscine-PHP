@@ -2,7 +2,15 @@
 <?php
 	if ($argc == 2)
 	{
-		$res = trim(preg_replace('/\s+/', ' ', $argv[1]));
+		$result = explode(" ", trim($argv[1]));
+		$arr = array_diff($result, array(""));
+		$arr = array_values($arr);
+		$res = $arr[0];
+		for ($i = 1; $i < sizeof($arr); $i++)
+		{
+			$res .= " ";
+			$res .= $arr[$i];
+		}
 		echo "$res\n";
 	}
 ?>
