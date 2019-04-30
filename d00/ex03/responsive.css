@@ -1,0 +1,124 @@
+html {
+	background-color: papayawhip;
+}
+
+body {
+	text-align: center;
+}
+
+.mendeleev {
+	width: 90%;
+	margin: auto;
+}
+
+table {
+	table-layout: fixed;
+	clear: both;
+	border-collapse: collapse;
+	border: 2px solid rgb(200,200,200);
+	align-content: center;
+	letter-spacing: 1px;
+	width: 100%;
+	height: 100%;
+}
+
+div.mendeleev table:first-child{
+	border-bottom: 0;
+}
+div.mendeleev table:last-child{
+	border-top: 0;
+	margin-bottom: 30px;
+}
+
+td, th {
+	border: 2px solid rgb(85, 80, 80);
+}
+
+th {
+	font-size: 1vw;
+}
+
+td {
+	height: 20px;
+}
+
+caption {
+	font-size: 2vw;
+	font-weight: bold;
+	padding: 10px;
+}
+
+footer {
+	text-align: right;
+	font-family: monospace;
+	font-style: italic;
+}
+
+th[scope="row"] {
+	width: 5%;
+}
+
+.ptext {
+	font-size: 0.6vw;
+}
+
+td p.atomic, td p.number {
+	font-size: 0.6vw;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+td > .symbol {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1vw;
+	margin: 0;
+}
+
+td > .table_lable {
+	font-size: 0.8vw;
+}
+
+td > .number {
+	text-align: left;
+	top: 0;
+}
+
+td > .atomic {
+	text-align: right;
+}
+
+/* Coloring table elements */
+th {
+	background-color: rgb(224, 219, 219);
+	overflow: auto;
+}
+td.s-elem {
+	background-color: rgb(240, 78, 154);
+}
+td.p-elem {
+	background-color: yellow;
+}
+td.d-elem {
+	background-color:rgb(120, 205, 233);
+}
+td.f-elem {
+	background-color: rgb(228, 85, 228);
+}
+
+.topic {
+	width: 60%;
+	overflow: auto;
+	margin: 0 auto;
+}
+img {
+	float: left;
+	max-width: 200px;
+	width: 10%;
+}
+img + p {
+	font-size: 0.9vw;
+}
