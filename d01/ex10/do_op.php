@@ -12,8 +12,13 @@
 				return (int)$op1 * (int)$op2;
 			case "/":
 				return (int)$op1 / (int)$op2;
+				break;
 			case "%":
 				return (int)$op1 % (int)$op2;
+				break;
+			default:
+				echo "Incorrect Parameters\n";
+				break;
 		}
 	}
 
@@ -26,5 +31,5 @@
 		echo do_op($argv[1], $argv[2], $argv[3]) . "\n";
 	}
 	else
-		echo "Incorrect Parameters\n"
+		echo "Incorrect Parameters\n";
 ?>
